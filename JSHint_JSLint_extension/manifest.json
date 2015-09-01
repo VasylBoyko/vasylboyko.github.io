@@ -1,0 +1,28 @@
+{
+  "name": "JSLint",
+  "version": "1.1",
+  "description": "",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "icons": { "16": "icon_16.png",
+             "48": "icon_48.png",
+             "128": "icon_128.png" 
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icon_48.png",
+    "default_popup": "options.html"
+  },
+   "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [ "tabs", "tts", "ttsEngine" , "<all_urls>", "notifications"]
+}

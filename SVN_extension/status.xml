@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="schemachanges.xslt"?>
+<status>
+<target
+   path="/home/vb/projects/samsung">
+<entry
+   path="/home/vb/projects/samsung/Docs">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/access.log">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/build.zip">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/db.log">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/error.log">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/partials.html">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/sample.json">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/samsung.zip">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/server/Gemfile">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/TIMELINE.jpg">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/anim.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/animations.html">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/hello-world.json">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/images/controls/carousel.gif">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/js/modules/animationsList.js">
+<wc-status
+   props="none"
+   item="modified"
+   revision="1417">
+<commit
+   revision="1413">
+<author>pavlo.halan</author>
+<date>2013-12-27T11:21:51.357806Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src/style.css">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/src.zip">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+<entry
+   path="/home/vb/projects/samsung/start_server.sh">
+<wc-status
+   item="unversioned"
+   props="none">
+</wc-status>
+</entry>
+</target>
+</status>

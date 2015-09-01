@@ -1,0 +1,1080 @@
+<?xml version="1.0"?><log>
+<logentry
+   revision="38797">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-10T12:50:02.573000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/SelectList/SelectListBoxEx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38810">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-13T08:26:16.690000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Login/Login.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38822">
+<author>UKEESS\vboyko</author>
+<date>2010-12-13T16:26:02.280000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/validation.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38823">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-14T10:17:20.700000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/NavBar/NavBarConfiguration.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Schemas/NavBar.xsd</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/NavBar/NavBarItem.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38827">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-14T11:09:35.297000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Wizard/WizardStepBase.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Wizard/WizardControl.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38828">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-14T11:13:09.300000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Image/FileUpload.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38830">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-14T16:15:49.463000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/Security/LoginBaseClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38834">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T08:19:05.093000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/DMC/DataManagerControl.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38844">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-15T13:22:20.783000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/DataSource/DataSourceDataTable.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38846">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-15T14:27:27.497000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/Security/LoginBaseClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38854">
+<author>UKEESS\vboyko</author>
+<date>2010-12-15T20:15:37.420000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38863">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T13:12:08.870000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Wizard/WizardStepBase.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Utils/Data/DataUtils.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/Wizard/WizardControl.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/ValueValidator.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38871">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-16T14:58:32.300000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/WebFrameworkHttpApplication.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Applications/SchedulerServiceBase.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/VersionClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38875">
+<author>UKEESS\vboyko</author>
+<date>2010-12-16T16:57:02.567000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38878">
+<author>UKEESS\vboyko</author>
+<date>2010-12-16T17:35:15.770000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38884">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-17T11:12:34.540000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/DMC/DMCUtils.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/DMC/DataManagerControl.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/Web/UI/ServerControls/DMC/DataManagerControl_Grid.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38887">
+<author>UKEESS\vboyko</author>
+<date>2010-12-17T11:27:17.297000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38888">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-17T11:29:40.327000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Utils/ApplicationSettingsBase.cs</path>
+<path
+   kind=""
+   action="M">/Framework/Projects/FrameworkBase/Business/DataPortal/DataPortalExecuterLocal.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38889">
+<author>UKEESS\vboyko</author>
+<date>2010-12-17T15:38:38.783000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38891">
+<author>UKEESS\vboyko</author>
+<date>2010-12-17T17:41:31.643000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/Framework/Projects/WebFramework/content/js/common.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38801">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-10T14:07:36.870000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/config/DCCSLoadTransactions.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38805">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-10T15:32:45.527000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Config/TransactionDeclineComments.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38814">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-13T12:27:19.723000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/DCCS/ParatransitLoadFunds.ascx</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/DCCS/ParatransitLoadFunds.ascx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/DCCS/ParatransitLoadFunds.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38815">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-13T12:33:02.897000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/DCCS/ParatransitLoadFunds.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38816">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-13T13:06:40.300000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/WizardsState/IssuerCardsAssignWizardState.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_approval.ascx.cs</path>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Departments.ascx</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/CardPrograms.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Approval.ascx.cs</path>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Departments.ascx.designer.cs</path>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Departments.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONETests/XmlValidationTest.cs</path>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Config/Departments.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Account.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/CardONEWeb.csproj</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/ApprovalWithHolders.ascx</path>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Config/DepartmentsApproval.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/ApprovalWithHolders.ascx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/ApprovalWithHolders.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/CardONE.config</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38822">
+<author>UKEESS\vboyko</author>
+<date>2010-12-13T16:26:02.280000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/DCCS/ParatransitLoadFunds.ascx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38827">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-14T11:09:35.297000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/CardsGenerator/Step5.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewApprovalRule/Step_Rules.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_ApprovalRules.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewIssuerCardProgram/Step1.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38829">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-14T15:19:31.490000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_ApprovalRulesType.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38833">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-14T17:02:50.827000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCInformation.ascx</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCInformation.ascx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCInformation.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCBillingInfo.ascx</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCBillingInfo.ascx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CCBillingInfo/CCBillingInfo.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38837">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T09:51:21.733000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/CreditCards.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38838">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-15T11:45:46.827000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Business/TransactionClass.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Common/Admin/TransactionsPageBase.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38842">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T13:00:31.290000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/DCCSAuditCountersReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/Reports/AuditCountersReport.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38844">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-15T13:22:20.783000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/WizardsState/NewHolderWizardState.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38846">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-15T14:27:27.497000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Business/LoginClass.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Common/Admin/ChangePassword.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/Fleet/Admin/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Logins.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38851">
+<author>UKEESS\vboyko</author>
+<date>2010-12-15T17:12:30.373000Z</date>
+<paths>
+<path
+   kind=""
+   action="A">/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/transactioninfo.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38852">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-15T18:25:02.830000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Common/Admin/TransactionsPageBase.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/CardONEWebDefs.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38853">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-15T18:28:32.160000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Common/Admin/TransactionsPageBase.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38855">
+<author>UKEESS\vboyko</author>
+<date>2010-12-15T20:21:15.953000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/transactioninfo.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38856">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T08:27:59.107000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_approval.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_ApprovalRuleDiscription.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/RideManagement.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_TemplateRules.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/WizardsState/NewOwnerCardProgramWizardState.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/CardONEFrameworkDefs.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/CardONE.config</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_ApprovalRules.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Business/ApprovalRuleClass.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewOwnerCardProgram/Step_ApprovalRulesType.ascx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38858">
+<author>UKEESS\vboyko</author>
+<date>2010-12-16T10:07:09.630000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/transactioninfo.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38863">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T13:12:08.870000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerPayment/PaymentType.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Account.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Business/PaymentClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38869">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T14:48:53.890000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/IssuerCardsAssign/Config/HolderCards.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38873">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T15:09:58.557000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Config/SoapLogs.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/config/Logs.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Config/SqlLogs.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38874">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-16T16:23:48.867000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/OwnerRides.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38881">
+<author>UKEESS\vdemchuk</author>
+<date>2010-12-17T10:15:47.063000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/DCCSRampTaxiIncentiveReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/TAPRidesPurchase.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/ReplacedCardsReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/TAPCardPurchase.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/DCCSActiveRiderReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/ExceptionReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/Pace/ReplacedCardsReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/DCCSAPBrokerReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/Pace/OverFourRidesReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/Pace/TAPRidesPurchased.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/ActiveRidershipReport.xml</path>
+<path
+   kind=""
+   action="M">/CardONE/Projects/CardONEFramework/Reports/CardOwner/NTDReport.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38795">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-10T12:03:17.743000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Reports/OnTimePerformanceReport/Default.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/AccountClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/ContractTransitClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38799">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-10T13:44:13.470000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/DriverBalanceHistoryClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38802">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-10T15:26:46.493000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/IssuerClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Settings/config/CashieringCommon.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/DriverBalanceHistoryClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38809">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-10T18:12:26.057000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Reports/OnTimePerformanceReport/Default.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/AccountClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/ContractTransitClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38819">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-13T14:07:18.230000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringFees.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/EntityPermissions.config</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/CashieringFeeClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/CashieringLeases.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/CashieringHistoryClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringDeposits.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringLeases.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/CashieringFeesBase.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringCredits.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38821">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-13T14:50:43.823000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringFees.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/LeaseClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38823">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-14T10:17:20.700000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Company/Issuer/NavBar.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Company/Issuer/Settings/NavBar.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Company/Driver/NavBar.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Company/Account/Settings/NavBar.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38825">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-14T10:45:04.960000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CashieringEdit.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38830">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-14T16:15:49.463000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/GlobalAdmin/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Common/config/ForceChangePassword.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Driver/ChangePassword.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Default.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Settings/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Templates/Page/Company/Issuer/Settings/NavBar.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Account/Settings/Logins.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/CabMaestro.config</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/CabMaestroWebDefs.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Common/ChangePassword.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38831">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-14T16:55:14.900000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/config/Orders.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/config/InvoiceContractTransits.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroTests/XmlValidationTest.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38832">
+<author>UKEESS\ykorolyuk</author>
+<date>2010-12-14T16:56:19.200000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Billing.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38835">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T08:23:53.953000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Common/config/Schedules.xslt</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Dispatcher/Orders.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Dispatcher/config/Orders.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Rider/config/Schedules.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Dispatcher/config/Schedules.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38849">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T16:13:14.693000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/LoginClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38850">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-15T16:14:01.943000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Driver/config/CCTransactions.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CreditCards/CCTransactions.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Common/config/CCTransactions.xslt</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CreditCards/CCTransactionEdit.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/IssuerClass.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CreditCards/config/CCTransactions.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Settings/config/CashieringCommon.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/CashieringCreditCardTransactions.ascx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CreditCards/config/CCTransactionEdit.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/config/CashieringCreditCardTransactions.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38864">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-16T13:13:34.090000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Common/config/Order.xslt</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Dispatcher/config/Orders.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38865">
+<author>UKEESS\mvoloshyn</author>
+<date>2010-12-16T13:13:58.293000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CreditCards/CCTransactions.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38870">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-16T14:52:06.580000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CashieringEdit.aspx</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CashieringEdit.aspx.designer.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/CashieringEdit.aspx.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38880">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-17T08:34:52.183000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Reports/OnTimePerformanceReport/Default.xml</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Modules/Company/Issuer/Reports/OnTimePerformanceReport.aspx.cs</path>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroFramework/Business/ContractTransitClass.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38882">
+<author>UKEESS\vboyko</author>
+<date>2010-12-17T10:44:43.637000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/cashiering.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="38892">
+<author>UKEESS\rbalabukh</author>
+<date>2010-12-17T17:56:37.477000Z</date>
+<paths>
+<path
+   kind=""
+   action="M">/CabMaestro/Projects/CabMaestroWeb/Web/UI/UserControls/Cashiering/CashieringFeesBase.cs</path>
+</paths>
+<msg></msg>
+</logentry>
+</log>

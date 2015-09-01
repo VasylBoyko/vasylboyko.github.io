@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
+	<script type="text/javascript" src="js/tools.js"></script>
+	<script type="text/javascript" src="js/svn.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/images/icon_16.png">
+	<link rel="stylesheet" href="/css/style.css">
+
+
+<script src="js/jquery-2.1.1.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tab.js"></script>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/tab.js"></script> -->
+
+
+
+</head>
+<body>
+	<div class = "toolbar">
+		<button onclick="onUpdateClicked(event)">Update</button>
+	</div>
+	<div class = "main_content">
+		<div class="file_list">
+			<div id="changed_files" class="changed_files" onclick="onFileListClicked(event)"></div>
+			<div>
+				<button>Commit</button>
+				<button>Revert</button>
+			</div>
+		</div>
+		<div id="file_props">
+			<ul class="nav nav-tabs" role="tablist">
+			  <li class="active"><a href="#file_diff" data-toggle="tab">Diff</a></li>
+			  <li><a href="#file_log" data-toggle="tab">Logs</a></li>
+			</ul>
+
+			<div class="file_info tab-content" id="file_info">
+				<div id ="file_diff" class="tab-pane active file_diff"></div>
+				<div id ="file_log" class="tab-pane"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "bottomPanel" id = "bottomPanel">
+		<div id = "svn_console">
+			
+		</div>
+		<div id="scroll_here"></div>
+	</div>
+	
+</body>
+</html>
+

@@ -1,0 +1,112 @@
+body, table
+{
+	margin: 0;
+	background-color: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+
+table{
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+th{
+	border: 0px;
+	line-height: 18px;
+	border-bottom: 1px solid #a3a3a3;
+	border-left: 1px solid #a3a3a3;
+}
+th:first-child{
+	border-left: 1px none;
+}
+td{    
+	border-top: 0px;
+	line-height: 18px;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-left: 1px solid #a3a3a3;
+	white-space: nowrap;
+}
+tr:nth-child(even) {background: #f3f3f3}
+tr:nth-child(odd) {background: #FFF}
+
+
+.toolbar{
+	height: 30px;
+	padding: 3px 10px;
+	background: #f3f3f3;
+	box-sizing: border-box;
+}
+
+.main_content {
+	position: absolute;
+	top: 30px;
+	bottom: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 300px;
+}
+.selected td{
+	background-color: #3879d9;
+	color: #ffffff;
+}
+
+.file_list{
+	float: left;
+	width: 300px;
+	height: 100%;
+	border: 1px solid #a3a3a3;
+	overflow-y: auto;
+	box-sizing: border-box;
+	margin-left: -300px;
+}
+.file_info{
+	border: 1px solid #a3a3a3;
+	box-sizing: border-box;
+	height: calc(100% - 42px);
+	overflow: auto;
+}
+.file_diff{
+	display: block;
+	font-family: monospace;
+	white-space: pre-wrap;
+	margin: 0px;
+	padding: 10px;
+}
+.file_diff .removed{
+	background-color: #ffeeee;
+}
+.file_diff .added{
+	background-color: #eeffee;
+}
+.file_diff .description{
+	background-color: #eeeeff;
+	border-top: 1px solid black;
+}
+
+#file_log{
+	border-top: 1px solid #a3a3a3;
+}
+
+#file_props{
+    overflow: hidden;
+}
+
+.bottomPanel{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	bottom: 0px;
+	border-top: 1px solid #a3a3a3;
+	overflow-y: auto;
+}
+
+#svn_console{
+	padding: 10px;
+}
+#scroll_here{
+	height: 1px;
+	overflow: hidden;
+}

@@ -1,0 +1,5089 @@
+<?xml version="1.0"?><log>
+<target
+   path="/home/vboyko/Projects/Framework/Projects">
+</target>
+<target
+   path="/home/vboyko/Projects/CardONE/Projects">
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONE.userprefs">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEServices/CardONEServices.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEServices/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEServices/CardONEServices.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="38129">
+<author>unknown</author>
+<date>2010-11-02T10:48:01.157000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/HoldersPhotosExport/MainForm.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/HoldersPhotosExport/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/HoldersPhotosExport/HoldersPhotosExport.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/HoldersPhotosExport/Properties/Resources.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/HoldersPhotosExport/HoldersPhotosExport.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36927">
+<author>unknown</author>
+<date>2010-08-13T08:19:17.127000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardOneCASTest/CardONECASTest.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardOneCASTest/MainForm.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardOneCASTest/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardOneCASTest/CardONECASTest.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36926">
+<author>unknown</author>
+<date>2010-08-13T08:08:20.003000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardOneCASTest/Properties/Resources.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONE.sln">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36810">
+<author>unknown</author>
+<date>2010-08-05T15:12:44.950000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEFramework/CardONEFramework.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEFramework/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/CardONEWeb.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Global.asax.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sfparatransit/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/images/logos/bg.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/yellowcab/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/pacebus/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/carriagecab/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/default/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/metro/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/303taxi/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/logos/logo.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/discountcab/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/sanjose/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/images/logos/bg.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/lasvegas/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/mobile/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/error.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/alexandria/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/aumilwaukee/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/content">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/logos/logo.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/logos/banner.jpg">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/atlantachecker/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/msb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/cnt">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/src">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/box">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/bax0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/tree">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/bax1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/keyboard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/wizard">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/dmc">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/required0.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/menu">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/required1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/tab">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/window">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/tabbtn">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/1x1.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/images/logos/logo.gif">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/dmc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/company/tts/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/zenbox.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/login.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/googlemap.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/page.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/overlay.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/googlemappoint.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/imageupload.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/common.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/validation.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/release/deploy_20090703_1/js/ccpaymentinfo.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/CbOS/DMC/DMCGridSettings.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Wizard2.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Wizard1.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/HelpContent.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Help.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/PopupBlank.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Settings.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Popup.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/BrowseDefault.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Login.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Default.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Blank.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/SignIn.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Templates/Page/Error.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/admin/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/CardONEWeb.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="38102">
+<author>unknown</author>
+<date>2010-11-01T14:21:16.353000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/ContactUs.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/AboutUs.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Browse/Welcome.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/CardsAssign.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/NewCardProgram.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/NewCardProgramTemplate.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/CardsUnassign.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/HoldersInvoicesGenerator.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/CardOwner/Admin/CreditCards.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/Transactions.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/OwnersInvoicesGenerator.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Company/Issuer/Admin/CardInfo.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/Transactions.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/AccountInfo.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/Cards.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/CardInfo.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Member/CardHolder/Admin/Home.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/TransactionInvoice.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/AdditionalHolderInfo/AdditionalInfoView.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/AdditionalHolderInfo/AdditionalInfo.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/ApprovalRule/ApprovalRulesReadOnly.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/ApprovalRule/ApprovalRules.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Common/Admin/ApprovalRule/ApprovalRulesForTemplate.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Help/HelpSearch.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Help/HelpItemInfo.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Help/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Login/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Login/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Login/Login.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/Login/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/TermsOfUse.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Transactions.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/TransactionDeclineComments.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/PrivacyPolicy.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Modules/GlobalAdmin/Admin/Default.aspx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/UserNotifications.config">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="35987">
+<author>unknown</author>
+<date>2010-06-03T14:37:00.250000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnersInvoicesGenerator/Owners.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnersInvoicesGenerator/Finish.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnersInvoicesGenerator/CardPrograms.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnersInvoicesGenerator/Approval.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/SignIn/Step4.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/NewIssuerCardProgram/Step5.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/HoldersInvoicesGenerator/Finish.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/HoldersInvoicesGenerator/CardPrograms.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/HoldersInvoicesGenerator/Approval.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/HoldersInvoicesGenerator/GenerationType.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/HoldersInvoicesGenerator/Holders.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnerCardsAssign/Step1.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnerCardsAssign/Step2.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnerCardsAssign/Step3.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnerCardsAssign/Step4.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/Wizards/OwnerCardsAssign/Step5.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CardProgramSubsidize/CardProgramSubsidize.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/CardInfo/CardInfo.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONEWeb/Web/UI/UserControls/MessageContainer/MessageContainer.ascx.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/SwipeDemo/RunningLine/RunningLine.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/SwipeDemo/RunningLine/RunningLine.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36927">
+<author>unknown</author>
+<date>2010-08-13T08:19:17.127000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/SwipeDemo/MeterRulete/MeterMachine.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/SwipeDemo/MeterRulete/MeterMachine.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36927">
+<author>unknown</author>
+<date>2010-08-13T08:19:17.127000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/DCCSConnectionServiceTest/frmMainForm.resources">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/DCCSConnectionServiceTest/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/DCCSConnectionServiceTest/CardONEServiceTest.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/DCCSConnectionServiceTest/CardONEServiceTest.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36927">
+<author>unknown</author>
+<date>2010-08-13T08:19:17.127000Z</date>
+</commit>
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONETests/bin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONETests/CardONETests.pidb">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CardONE/Projects/CardONETests/CardONETests.csproj">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="36942">
+<author>unknown</author>
+<date>2010-08-16T07:52:11.190000Z</date>
+</commit>
+</wc-status>
+</entry>
+</target>
+<target
+   path="/home/vboyko/Projects/CabMaestro/Projects">
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestro.userprefs">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/html">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/tas">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/commonskin">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/yellowcab/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/sanjose/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/default/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/lasvegas/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/metro/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/alexandria/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/aumilwaukee/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/csta/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/303taxi/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/controls">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/images">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/sf.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/common.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/baneritems.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/dmccolumns3d.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/ie.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/op.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/appclasses.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/nc.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/homeicons.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/company/discountcab/css/skin.css">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/zenbox.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/login.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/googlemap.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/page.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/overlay.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/googlemappoint.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/imageupload.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/common.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/validation.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/ccpaymentinfo.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/release/deploy_20090703_1/js/keyboard.js">
+<wc-status
+   props="none"
+   item="unversioned">
+</wc-status>
+</entry>
+<entry
+   path="/home/vboyko/Projects/CabMaestro/Projects/CabMaestroWeb/UserNotifications.config">
+<wc-status
+   props="none"
+   item="modified"
+   revision="38322">
+<commit
+   revision="34673">
+<author>unknown</author>
+<date>2010-01-29T10:56:13.950000Z</date>
+</commit>
+</wc-status>
+</entry>
+</target>
+</log>
