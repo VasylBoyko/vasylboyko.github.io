@@ -1,0 +1,38 @@
+{
+  "htmlFiles": [
+    {
+      "fileId": "0B8V6Yj-wlz_0dHdKd0hucnljTmc",
+      "contentType": "text/html",
+      "name": "skin.html",
+      "path": "0B8V6Yj-wlz_0Z2lRb0VyN1FVZm8/"
+    },
+    {
+      "fileId": "0B8V6Yj-wlz_0TDFreTIyS3RfYlU",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "0B8V6Yj-wlz_0Z2lRb0VyN1FVZm8/"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "0B8V6Yj-wlz_0OHo4N2FDZUlCSmc",
+      "contentType": "text/css",
+      "name": "style.css",
+      "path": "0B8V6Yj-wlz_0Z2lRb0VyN1FVZm8/css"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "0B8V6Yj-wlz_0b2h6Z3ZhY0luaG8",
+      "contentType": "text/javascript",
+      "name": "skin.js",
+      "path": "0B8V6Yj-wlz_0Z2lRb0VyN1FVZm8/js"
+    },
+    {
+      "fileId": "0B8V6Yj-wlz_0UzdiYjZaTVVXLUk",
+      "contentType": "text/javascript",
+      "name": "player.js",
+      "path": "0B8V6Yj-wlz_0Z2lRb0VyN1FVZm8/js"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Devtools Terminal</title>
+    <link href="app.css" rel="stylesheet" />
+    <script src="libs/socket.io.js"></script>
+    <script src="libs/term.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="content">
+
+      <div class="tab"></div>
+
+      <div class="theme-toggle-btn"></div>
+      <nav class="menu">
+        <ul>
+          <li><button type="button" >Remote Connection</button></li>
+          <li><button type="button" >Theme toggle</button></li>
+          <li><button type="button" >Help</button></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="modal auth-modal">
+      <div class="modal-dialog" >
+        <form>
+          <h4>Authorization required</h4>
+          <div class="modal-inputs">
+            <input type="text" name="url" placeholder="url" /><br/>
+            <input type="text" name="login" placeholder="login" /><br/>
+            <input type="password" name="password" placeholder="password" /><br/>
+          </div>
+          <div>
+            <button type="button" class="js-cancel-btn" >Cancel</button><!--
+         --><button type='submit' class="js-ok-btn" >OK</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal error-modal">
+      <div class="modal-dialog" >
+        <form>
+          <h4></h4>
+          <div>
+            <button type="button" class="js-cancel-btn" tabindex="2" >Dismiss</button><!--
+         --><button type='submit' class="js-ok-btn" tabindex="1" >Retry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

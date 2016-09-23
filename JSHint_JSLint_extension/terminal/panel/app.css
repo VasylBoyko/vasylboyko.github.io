@@ -1,0 +1,550 @@
+/**
+ * From chromium devtools:
+ */
+
+body {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  font-family: Lucida Grande, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  tab-size: 4;
+  -webkit-user-select: none;
+  color: #222;
+}
+
+body.platform-linux {
+  color: rgb(48, 57, 66);
+  font-family: Ubuntu, Arial, sans-serif;
+}
+
+body.platform-mac {
+  color: rgb(48, 57, 66);
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+body.platform-windows {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body.platform-mac code,
+body.platform-mac .terminal,
+body.platform-mac .monospace,
+body.platform-mac .source-code {
+  font-size: 11px !important;
+  font-family: Menlo, monospace;
+}
+
+body.platform-mac.platform-mac-tiger code,
+body.platform-mac.platform-mac-tiger .terminal,
+body.platform-mac.platform-mac-tiger .monospace,
+body.platform-mac.platform-mac-tiger .source-code {
+  font-size: 10px !important;
+  font-family: Monaco, monospace;
+}
+
+body.platform-windows code,
+body.platform-windows .terminal,
+body.platform-windows .monospace,
+body.platform-windows .source-code {
+  font-size: 12px !important;
+  font-family: Consolas, Lucida Console, monospace;
+}
+
+body.platform-linux code,
+body.platform-linux .terminal,
+body.platform-linux .monospace,
+body.platform-linux .source-code {
+  font-size: 11px !important;
+  font-family: dejavu sans mono, monospace;
+}
+
+/**
+ * Reset
+ */
+
+body, html, p, h1, h2, h3, h4, h5, h6, button, ul, li, input, form, pre, code{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+}
+
+/**
+ * Formatted text styles
+ */
+
+.formatted-text h1,
+.formatted-text h2,
+.formatted-text h3,
+.formatted-text h4,
+.formatted-text h5,
+.formatted-text h6{
+  margin: 1.4em 0 0.4em;
+}
+
+.formatted-text p,
+.formatted-text pre{
+  margin: 0 0 1em;
+}
+
+.formatted-text>*:first-child{
+  margin-top: 0 !important;
+}
+
+.formatted-text>*:last-child{
+  margin-bottom: 0 !important;
+}
+
+.formatted-text pre{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+
+/**
+ * Terminal 
+ */
+
+.terminal {
+  border-style: solid;
+  border-width: 3px 5px;
+  float: none;
+  -webkit-user-select: all;
+  white-space: pre;
+}
+
+.terminal a{
+  color: inherit;
+  /*color: rgb(33%, 33%, 33%); from Devtools Console */
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.terminal a:hover{
+  text-decoration: underline;
+}
+
+
+.tab,
+.content,
+.terminal-container{
+  width: 100%;
+  height: 100%;
+}
+
+/**
+ * Basic stuff 
+ */
+
+body, button{
+  color: #222;
+}
+
+button{
+  background: white;
+  color: #222;
+  padding: 6px 10px;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+  font: inherit;
+}
+
+button[type='submit']{
+  font-weight: bold;
+  background: #fff;
+}
+
+button:hover{
+  background: #eaf1fb;
+}
+
+button:active{
+  background: #3879d9;
+  color: white;
+}
+
+button:focus{
+  outline: none;
+  color: rgba(102, 175, 233, 1);
+  background: #eaf1fb;
+}
+
+input[type='text'],
+input[type='password']{
+  display: inline-block;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+  font: inherit;
+}
+
+input[type='text']:focus,
+input[type='password']:focus{
+  outline: none;
+  border-color: #a3cff2;
+  box-shadow: 0 0 2px 0 #a3cff2;
+}
+
+
+.content{
+  -webkit-transition: -webkit-filter 0.4s ease-out;
+}
+
+.blur {
+  -webkit-filter: blur(3px);
+}
+
+
+/**
+ * Address bar
+ */
+
+/*.address-bar-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transform: translate(0, -40px);
+
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+}
+
+.address-bar-wrapper.show{
+  -webkit-transform: translate(0, 0);
+}
+
+.address-bar{
+  height: 33px;
+  margin: 0;
+  background: #f0f0f0;
+  border-bottom: 1px solid #cacaca;
+
+  position: relative;
+  z-index: 2;
+}
+
+.address-bar:after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.address-bar input[type='text'],
+.address-bar label,
+.address-bar button{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.address-bar input[type='text']{
+  width: 50%;
+  border-radius: 2px 0 0 2px;
+}
+
+.address-bar label{
+  text-align: right;
+  width: 105px;
+  padding-right: 5px;
+}
+
+.address-bar button{
+  padding: 3px 8px;
+  min-width: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 2px 2px 0;
+  background-image: -webkit-linear-gradient(bottom, #ddd 0%, #fff 100%);
+}
+
+.address-bar button:hover{
+  background-image: -webkit-linear-gradient(bottom, #ddd 0%, #fff 100%);
+  color: #38f;
+}
+
+.address-bar button:active{
+  box-shadow: 0 0 2px #333;
+}
+
+.address-bar button:active,
+.address-bar button:focus{
+  position: relative;
+  left: -1px;
+  border-left: 1px solid #a3cff2;
+  color: #222;
+  border-color: #a3cff2;
+  box-shadow: 0 0 2px 0 #a3cff2;
+}
+
+.suggestions{
+  background: white;
+  padding: 4px 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+  display: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.suggestion{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 3px 6px;
+  border-radius: 2px;
+  margin-left: 110px;
+  border: 1px solid transparent;
+}
+
+.suggestion:hover{
+  background: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
+.suggestion.selected{
+  background: #b5d5ff;
+  border-color: #b5d5ff;
+}
+
+.address-bar-btn{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  top: 10px;
+
+  -webkit-transition: all 0.4s ease-out;
+  opacity: 0.5;
+}
+
+
+.address-bar-btn.open-btn,
+.address-bar-btn.open-btn:before,
+.address-bar-btn.open-btn:after{
+  width: 4px;
+  height: 4px;
+  background: #272822;
+  border-radius: 50%;
+  position: absolute;
+  display: none;
+}
+
+.address-bar-btn.open-btn{
+  top: 16px;
+  right: 20px;
+}
+.address-bar-btn.open-btn:before,
+.address-bar-btn.open-btn:after{
+  content: '';
+  display: block;
+}
+.address-bar-btn.open-btn:before{
+  right: -7px;
+}
+.address-bar-btn.open-btn:after{
+  left: -7px;
+}
+*/
+
+.theme-toggle-btn{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  top: 10px;
+
+  -webkit-transition: all 0.4s ease-out;
+  opacity: 0.5;
+  border-width: 0;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  right: 9px;
+  top: 5px;
+}
+
+
+.theme-toggle-btn:after{
+  width: 4px;
+  height: 4px;
+  background: #272822;
+  content: '';
+  display: block;
+  box-shadow: -7px 0 #272822, 7px 0 #272822;
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+
+.theme-toggle-btn:hover{
+  opacity: 1.0;
+}
+
+.theme-toggle-btn.white:after{
+  background: white;
+  box-shadow: -7px 0 white, 7px 0 white;
+}
+
+
+/**
+ * Menu
+ */
+
+.menu{
+  position: absolute;
+  right: 8px;
+  top: 33px;
+  border: 1px solid #d0d0d0;
+  display: none;
+}
+.menu.show{
+  display: block;
+}
+
+.menu button{
+  width: 100%;
+  text-align: left;
+  background: #fff;
+}
+
+.menu button:hover{
+  background: #eaf1fb;
+}
+
+.menu button:active{
+  background: #3879d9;
+}
+
+.menu:after,
+.menu:before{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+}
+
+.menu:before{
+  right: 5px;
+  border-width: 8px;
+  border-bottom-color: #d0d0d0;
+}
+.menu:after{
+  right: 7px;
+  border-width: 6px;
+  border-bottom-color: white;
+}
+
+/**
+ * Modal window
+ */
+
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out;
+  display: none;
+}
+
+.modal.show{
+  opacity: 1;
+}
+
+.modal .modal-dialog{
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -webkit-transform: scale(0.5,0.5);
+}
+
+.modal.show .modal-dialog{
+  -webkit-transform: scale(1.0,1.0);
+}
+
+.modal h4{
+  margin: 10px 0;
+}
+
+.modal p{
+  width: 160px;
+  margin: 10px auto;
+}
+
+.modal input[type='text'],
+.modal input[type='password']{
+  width: 160px;
+  margin: 0 auto 5px;
+}
+
+.modal .modal-inputs{
+  margin-bottom: 5px;
+}
+
+.modal button{
+  background: white;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.modal button + button{
+  margin-left: 0px;
+  border-left: 1px solid #ccc;
+}
+
+.modal-dialog{
+  display: inline-block;
+  vertical-align: 25%;
+
+  padding: 0;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+.modal:after{
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/**
+ * Help
+ */
+
+.help{
+  position: absolute;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 15px;
+  -webkit-user-select: all;
+}
+

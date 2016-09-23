@@ -1,0 +1,245 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <meta name="viewport" content="width=275">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Cloud Player</title>
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/zip.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/playList.js"></script> 
+    <script type="text/javascript" src="js/player.js"></script> 
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/id3.js"></script>
+    <script type="text/javascript" src="js/indexDbApi.js"></script>
+    <script type="text/javascript" src="js/google_drive.js"></script>
+    
+    
+    <!--script type="text/javascript" src="js/test.js"></script--> 
+    
+    <!--link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/vader/jquery-ui.css"-->
+    <link rel="stylesheet" href="css/Aristo/aristo.css">
+    <link rel="stylesheet" href="css/style.css">  
+    <script>
+        if (localStorage["skin"]) {
+            document.write( "<style id='skinCSS'>" + localStorage["skin"] + "</style>"); 
+        } else {
+            document.write( '<link rel="stylesheet" href="css/defaultSkin.css">'); 
+        }
+            
+        // Listen to message from child IFrame window
+        window.addEventListener("message", function (e) {
+            console.log(e.origin);
+            //if (e.origin == 'https://localhost:3000') {
+                var data = JSON.parse(e.data);
+                if (data.lyric){
+                    window.updateLyric(data);
+                    tools.getElement("lyric_wnd").src = "about:blank";
+                }
+            //}
+        }, false); 
+        function updateLyric(data) {
+            var lyricBox = document.getElementById("lyricBox"),
+                t = data.title.split(":");
+        
+            lyricBox.innerHTML = "";
+        
+            var title = document.createElement("h2"),
+                artist = document.createElement("h3"),
+                lyric  = document.createElement("div");
+        
+            title.innerText = t[0];
+            artist.innerText = t[1];
+            lyric.innerText = data.lyric;
+        
+            lyricBox.appendChild(title);
+            lyricBox.appendChild(artist);
+            lyricBox.appendChild(lyric);
+        }
+        window.getLyric=function() {
+            var lyricBox = document.getElementById("lyricBox");
+            lyricBox.innerHTML = "";
+            var customEvent = new CustomEvent('lyric_request',  { 'detail': {artist: tools.getElement("lyric_artist").value, title: tools.getElement("lyric_title").value}});
+            document.body.dispatchEvent(customEvent);
+        }
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+  </head>
+  <body>
+        
+    	<div id="playerContainer">
+	    <div class="group" style="position: absolute;">
+    		<div class="main_window" id = "main_window">
+                <div class="titlebar"></div>
+    			<input class="m_posbar" id="m_posbar" type="range" value=0 min="0" max="1" step ="0.001"></input>
+                <input class="m_volume" id="m_volume" type="range" value="27" min="0" max="27" step="1"></input>
+    			<div class="m_previous" id="m_previous"></div>
+    			<div class="m_play" id="m_play"></div>
+    			<div class="m_pause" id="m_pause"></div>
+    			<div class="m_stop" id="m_stop"></div>
+    			<div class="m_next" id="m_next"></div>
+    			<div class="m_eject" id="m_eject"></div>
+    			<div class="m_eqButton" id="m_eqButton" data-on></div>
+    			<div class="m_plButton" id="m_plButton" data-on></div>
+    			<div class="m_repeatButton" id="m_repeatButton" data-off></div>
+    			<div class="m_shuffleButton" id="m_shuffleButton" data-on></div> 
+                <div id="analizer" class="equalizer"></div>
+    		</div>
+    		
+    		<div id = "eq_main" class= "eq_main" style = "left: 0px; top: 116px;">
+                <div class="titlebar"></div>
+                <div class="eq_graph">
+                    <div class="slider" style="left:78px;"  value="1" tabindex="0"></div>
+                    <div class="slider" style="left:96px;"  value="4" tabindex="0"></div>
+                    <div class="slider" style="left:114px;" value="7" tabindex="0"></div>
+                    <div class="slider" style="left:132px;" value="10" tabindex="0"></div>
+                    <div class="slider" style="left:150px;" value="13" tabindex="0"></div>
+                    
+                    <div class="slider" style="left:168px;" value="16" tabindex="0"></div>
+                    <div class="slider" style="left:186px;" value="19" tabindex="0"></div>
+                    <div class="slider" style="left:204px;" value="22" tabindex="0"></div>
+                    <div class="slider" style="left:222px;" value="25" tabindex="0"></div>
+                    <div class="slider" style="left:240px;" value="27" tabindex="0"></div>
+                </div>
+                
+                <div class="slider" style="left: 21px; top: 38px;" value="19" tabindex="0"></div>
+                
+                <div class="eq_bt_on"></div>
+                <div class="eq_bt_off"></div>
+                <div class="eq_bt_presets"></div>
+                <div class="eq_bt_auto_1"></div>
+                <div class="eq_bt_auto_0"></div>
+                <div class="eq_bt_close"></div>
+                <div class="eq_bt_shade1"></div>
+                <div class="m_eq_spline"></div>
+                <div class="eq_curve"></div>
+    		</div>
+            <div id="play_list_cont" class="play_list_cont pl_cfill">
+                <div class="full pl_tfill1"><div class="full pl_lfill"><div class="full pl_rfill"> <div class="f pl_sfill1">
+                <div class="full pl_corner_ul"> <div class="full pl_corner_ur"><div class="full pl_lsbar"> <div class="full pl_rsbar">
+                <div class="titlebar"></div>
+    		    <div id="play_list" class="play_list" ></div>
+                <div class="playlist_bottom_panel">
+                    <div id = "add_track_btn"></div>
+                </div>
+                </div></div></div></div>
+                </div></div></div></div>
+            
+    		</div>
+             <div id="play_list_cont_2" class="play_list_cont pl_cfill" style = "left: 550px;top: 0px;" >
+                <div class="full pl_tfill1"><div class="full pl_lfill"><div class="full pl_rfill"> <div class="f pl_sfill1">
+                <div class="full pl_corner_ul"> <div class="full pl_corner_ur"><div class="full pl_lsbar"> <div class="full pl_rsbar">
+                <div class="titlebar"></div>
+                <div class="lyric_form">
+                    <form onsubmit = "getLyric(); return false;">
+                        <label>Artist</label><input name="artist" id="lyric_artist" />
+                        <label>Title</label><input id="lyric_title" name="title" />
+                        <input type="submit" value="Get" style="width:20px"/>
+                    </form>
+                </div>
+        	    <div class="play_list" ><div id="lyricBox" onmousedown="event.stopPropagation();" style="-webkit-user-select: initial;"></div></div>
+                    
+                </div></div></div></div>
+                </div></div></div></div>
+            
+    		</div>
+		</div>
+        
+        
+        <div id="dialog-settings" title="Settings" style="display: none;">
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">Sources</a></li>
+                    <li><a href="#tabs-2">Appearance</a></li>
+                    <li><a href="#tabs-3">Playlist</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <h2>Sources</h2>
+                    <div class="tab-content">
+                        <div><input type ="checkbox" checked="checked" />Google Drive <input type="button" id="authorizeButton" style="display: none; float:right;" value="Authorize" /></div>
+                        <div><input type ="checkbox" disabled="disabled" />OneDrive</div>
+                        <div><input type ="checkbox" disabled="disabled" />vk.com</div>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <h2>Skins</h2>
+                    <div class="tab-content">
+                        <ul id="skin_list" class="ui-widget-content">
+                            <li class="ui-widget-content">Aimp_Classic.wsz</li>
+                            <li class="ui-widget-content">Bento_Classified.wsz</li>
+                            <li class="ui-widget-content">EasyPlay_Red.wsz</li>
+                            <li class="ui-widget-content">Eclipse_1.wsz</li>
+                            <li class="ui-widget-content">McDs_Modern_Mix.wsz</li>
+                            <li class="ui-widget-content">Winamp_Classic_CM.wsz</li>
+                            <li class="ui-widget-content">WinampMP11.wsz</li>
+                        </ul>
+                        <button id="skin_add">Add</button>
+                        <button id="skin_refresh_list">Refresh</button>
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <h2>Playlist</h2>
+                    <div class="tab-content">
+                        <div><input type ="checkbox" disabled="disabled" />Show track numbers</div>
+                        <div><input type ="checkbox" disabled="disabled" />Show ID3Tags</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="file-dialog" title="Available tracks" style="display: none;">
+                <div id="sources_tabs">
+                    <ul>
+                        <li><a href="#sources_tabs-1">GoogleDrive</a></li>
+                        <li><a href="#sources_tabs-2">OneDrive</a></li>
+                        <li><a href="#sources_tabs-3">VK</a></li>
+                    </ul>
+                    <div id="sources_tabs-1">
+                        <h2>GoogleDrive</h2>
+                        <div class="tab-content" >
+                            <ol id="gd_track_list" class="ui-widget-content">
+                                <li class="ui-widget-content">Aimp_Classic.wsz</li>
+                                <li class="ui-widget-content">Bento_Classified.wsz</li>
+                                <li class="ui-widget-content">EasyPlay_Red.wsz</li>
+                                <li class="ui-widget-content">Eclipse_1.wsz</li>
+                                <li class="ui-widget-content">McDs_Modern_Mix.wsz</li>
+                                <li class="ui-widget-content">Winamp_Classic_CM.wsz</li>
+                                <li class="ui-widget-content">WinampMP11.wsz</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="sources_tabs-2">
+                        <h2>OneDrive</h2>
+                        <div class="tab-content">
+                            <ul id="track_list" class="ui-widget-content">
+                                <li class="ui-widget-content">Aimp_Classic.wsz</li>
+                                <li class="ui-widget-content">Bento_Classified.wsz</li>
+                                <li class="ui-widget-content">EasyPlay_Red.wsz</li>
+                                <li class="ui-widget-content">Eclipse_1.wsz</li>
+                                <li class="ui-widget-content">McDs_Modern_Mix.wsz</li>
+                                <li class="ui-widget-content">Winamp_Classic_CM.wsz</li>
+                                <li class="ui-widget-content">WinampMP11.wsz</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="sources_tabs-3">
+                        <h2>VK.com</h2>
+                        <div class="tab-content">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class= "player_controls">
+        <audio id ="player1" controls="true"></audio><br/>
+		<audio id ="player2" controls="true"></audio>
+        <button id ="run_test_code" onclick="test();">Test</button>
+	</div>	
+    <iframe id="lyric_wnd" name="lyric_wnd" src = "about:blank" style="display: none; opacity: 0;top: -1000px; position: absolute;"> </iframe>
+    
+  </body>
+</html>

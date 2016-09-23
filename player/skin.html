@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <script type="text/javascript" src="js/zip.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/skin.js"></script>
+    <link rel="stylesheet" href="css/style.css">     
+    
+  </head>
+  <body style = "padding-left: 341px;overflow: auto;">
+    <input type="button" id="authorizeButton" style="display: none" value="Authorize" />
+	<div id = "playerContainer">
+		<div class= "main_window" id = "main_window">
+            <div class="titlebar"></div>
+			<input class="m_posbar" id="m_posbar" type="range"></input>
+            <input class="m_volume" id="m_volume" type="range" oninput = "this.setAttribute('value', this.value);player.volume(this.value/27)" value="14" min="0" max="27" step="1"></input>
+			<div class="m_previous" id="m_previous"></div>
+			<div class="m_play" id="m_play"></div>
+			<div class="m_pause" id="m_pause"></div>
+			<div class="m_stop" id="m_stop"></div>
+			<div class="m_next" id="m_next"></div>
+			<div class="m_eject" id="m_eject"></div>
+			<div class="m_eqButton" id="m_eqButton" data-on></div>
+			<div class="m_plButton" id="m_plButton" data-on></div>
+			<div class="m_repeatButton" id="m_repeatButton" data-on></div>
+			<div class="m_shuffleButton" id="m_shuffleButton" data-on></div>
+		</div>
+		
+		<div class= "eq_main">
+            <div class="titlebar"></div>
+            <div class="eq_graph">
+                <div class="slider" style="left:78px;"  value="1" tabindex="0"></div>
+                <div class="slider" style="left:96px;"  value="4" tabindex="0"></div>
+                <div class="slider" style="left:114px;" value="7" tabindex="0"></div>
+                <div class="slider" style="left:132px;" value="10" tabindex="0"></div>
+                <div class="slider" style="left:150px;" value="13" tabindex="0"></div>
+                
+                <div class="slider" style="left:168px;" value="16" tabindex="0"></div>
+                <div class="slider" style="left:186px;" value="19" tabindex="0"></div>
+                <div class="slider" style="left:204px;" value="22" tabindex="0"></div>
+                <div class="slider" style="left:222px;" value="25" tabindex="0"></div>
+                <div class="slider" style="left:240px;" value="27" tabindex="0"></div>
+            </div>
+            
+            <div class="slider" style="left: 21px; top: 38px;" value="19"></div>
+            
+            <div class="eq_bt_on"></div>
+            <div class="eq_bt_off"></div>
+            <div class="eq_bt_presets"></div>
+            <div class="eq_bt_auto_1"></div>
+            <div class="eq_bt_auto_0"></div>
+            <div class="eq_bt_close"></div>
+            <div class="eq_bt_shade1"></div>
+            <div class="m_eq_spline"></div>
+            <div class="eq_curve"></div>
+            
+		</div>
+        <div id="play_list_cont" class="play_list_cont pl_cfill" >
+            <div class="full pl_tfill1"><div class="full pl_tfill2"><div class="full pl_lfill"><div class="full pl_rfill"> <div class="full pl_sfill1"><div class="full pl_sfill2">
+            <div class="full pl_corner_ul"> <div class="full pl_corner_ur"><div class="full pl_lsbar"> <div class="full pl_rsbar">
+            
+            
+    	    
+		    <div id="play_list" class="play_list" >
+    	     <div>play_list</div><div class="selected">play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div><div>play_list</div>
+		    </div>
+            
+            </div></div></div></div>
+            </div></div></div></div></div></div>
+		</div>
+        
+        
+        <div style="position: absolute; left: 400; width: 600px;"></div>
+        <!--
+        pl_corner_ul
+pl_corner_ur
+pl_titlebar
+pl_tfill1
+pl_tfill2
+pl_lfill
+pl_rfill
+pl_lsbar
+pl_rsbar
+pl_sfill1
+pl_sfill2
+active .pl_titlebar_shaded1
+pl_titlebar_shaded1
+pl_titlebar_shaded2
+pl_tfill_shaded
+pl_control
+
+pl_bt_add
+pl_bt_sub
+pl_bt_sel
+pl_bt_sort
+pl_bt_lst
+pl_bt_scroll
+pl_bt_close
+
+pl_bt_shade1
+pl_bt_shade2
+        -->
+    </div>
+  </body>
+</html>
+
+
+            
+
+            

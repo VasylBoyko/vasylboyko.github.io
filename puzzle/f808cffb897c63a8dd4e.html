@@ -1,0 +1,297 @@
+
+<!-- saved from url=(0057)http://bl.ocks.org/nevernormal1/raw/f808cffb897c63a8dd4e/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./f808cffb897c63a8dd4e_files/jquery.min.js"></script>
+<script src="./f808cffb897c63a8dd4e_files/d3-path.v0.1.js"></script>
+<script src="./f808cffb897c63a8dd4e_files/d3-shape.v0.5.js"></script>
+
+<style>
+  body {
+    font: 13px sans-serif;
+  }
+
+  rect,
+  circle,
+  path {
+    stroke: #bbb;
+    stroke-width: 0.5px;
+    
+  }
+
+  circle {
+    fill: #fff;
+    fill-opacity: .2;
+  }
+  svg {
+      filter: drop-shadow( 0px 0px 2px #000 );
+  }
+
+</style>
+
+</head><body>
+  <form>
+    <label for="rowCount">Rows:</label>
+    <input type="number" id="rowCount" min="1" max="10" value="3">
+    <label for="columnCount">Columns:</label>
+    <input type="number" id="columnCount" min="1" max="10" value="3">
+  </form>
+  <div id="container"><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg2"
+   height="450"
+   width="450"
+   version="1.0">
+     <defs
+     id="defs4">
+    <pattern
+       height="400"
+       width="400"
+       patternUnits="userSpaceOnUse"
+       id="img1">
+      <image
+         id="image7"
+         height="450"
+         width="450"
+         y="-65"
+         x="0"
+         xlink:href="http://img-fotki.yandex.ru/get/43572/35931700.154/0_e1587_524341bd_orig" />
+    </pattern>
+  </defs>
+   <path fill="url(#img1)" style1="fill:#000000;fill-opacity:1" vector-effect="non-scaling-stroke" d="
+M135,45
+L139.041537156835,45.978219897149835
+C143.08307431366998,46.956439794299676,151.16614862733994,48.912879588599345,153.00464126831693,47.00338027738894
+C154.84313390929393,45.09388096617854,150.43704487757793,39.31844254945805,151.71441921870735,36.30621834600223
+C152.99179355983676,33.29399414254642,159.9526312738116,33.044984152355276,161.04054128302465,34.94868862341761
+C162.12845129223768,36.85239309447994,157.34343359668893,40.908812026795765,159.52452209872453,42.942816333101746
+C161.7056106007601,44.97682063940772,170.85280530038006,44.98841031970386,175.42640265019,44.99420515985193
+L180,45 
+L179.84303998949395,49.187674257442474C179.6860799789879,53.375348514884955,179.3721599579758,61.75069702976992,181.87693804747607,63.61895926795062
+C184.38171613697634,65.48722150613133,189.70519233698892,60.84839746760779,192.8764614317524,62.46910912140007
+C196.04773052651583,64.08982077519236,197.0667925160302,71.97006812130049,193.6632526692715,73.39729479276332
+C190.2597128225127,74.82452146422615,182.4335711394809,69.7987274610437,179.41926205522347,71.49034154980892
+C176.40495297096604,73.18195563857415,178.202476485483,81.59097781928708,179.10123824274152,85.79548890964354
+L180,90
+L175.66184866842988,90.06449101452789
+C171.32369733685974,90.12898202905579,162.64739467371948,90.25796405811157,160.55198569168178,92.74693377326433
+C158.45657670964405,95.2359034884171,162.9420614087089,100.08486088966684,161.33832526212586,102.50738047487148
+C159.73458911554283,104.92990006007614,152.04163212331198,104.9259818292357,150.70642508098132,102.51062300466178
+C149.37121803865068,100.09526418008785,154.39376094622028,95.26846476178046,152.83564842437343,92.78145416204792
+C151.27753590252658,90.29444356231538,143.13876795126328,90.14722178115768,139.06938397563164,90.07361089057883
+L135,90
+L135.62048746463466,85.92623858393002C136.24097492926933,81.85247716786004,137.48194985853866,73.70495433572007,135.96491535541273,72.07614294410801
+C134.44788085228677,70.44733155249592,130.1728369167656,75.33723160141174,127.52386110977578,73.7446365005256
+C124.87488530278597,72.15204139963949,123.85197762432752,64.07695114895141,125.23286998958258,62.092438342328215
+C126.61376235483765,60.107925535705,130.3984547638062,64.21399017314667,132.42694310616136,62.38034669010278
+C134.45543144851652,60.54670320705889,134.72771572425825,52.77335160352944,134.86385786212912,48.88667580176472
+L135,45"></path>
+</svg></div>
+
+
+<script>
+  var width = 450, height = 450;
+
+  // Returns 6 points representing the shape of one edge of a puzzle piece.
+  // Point coordinates are expressed as percentage distances across the width
+  // and height of the piece.
+  var edgeDistributions = function() {
+    var randomBetween = function(min, max) {
+      return Math.random() * (max - min) + min;
+    };
+
+    var baselineOffsets = {
+      xMin: 51,
+      xMax: 62,
+      yMin: -15,
+      yMax: 5
+    };
+
+    var upperOffsets = {
+      xMin: 20,
+      xMax: 30,
+      yMin: 20,
+      yMax: 44
+    };
+
+    var point1 = [0, 0];
+    var point2 = [
+      randomBetween(baselineOffsets.xMin, baselineOffsets.xMax),
+      randomBetween(baselineOffsets.yMin, baselineOffsets.yMax)
+    ];
+    var point3 = [
+      randomBetween(upperOffsets.xMin, upperOffsets.xMax),
+      randomBetween(upperOffsets.yMin, upperOffsets.yMax)
+    ];
+    var point4 = [
+      randomBetween(100-upperOffsets.xMax, 100-upperOffsets.xMin),
+      randomBetween(upperOffsets.yMin, upperOffsets.yMax)
+    ];
+    var point5 = [
+      randomBetween(100-baselineOffsets.xMax, 100-baselineOffsets.xMin),
+      randomBetween(baselineOffsets.yMin, baselineOffsets.yMax)
+    ];
+    var point6 = [100, 0];
+
+    var sign = Math.random() < 0.5 ? -1 : 1;
+
+    return [point1, point2, point3, point4, point5, point6].map(function(p) {
+      return [p[0] / 100, p[1] * sign / 100];
+    });
+  };
+
+  // Builds an m + 1 x n matrix of edge shapes. The first and last rows
+  // are straight edges.
+  var buildDistributions = function(m, n) {
+    var lineGroups = [];
+    var lines = [];
+    var points, i, j;
+
+    for (j = 0; j < n; j++) {
+      lines.push([[0, 0], [1,0]]);
+    }
+    lineGroups.push(lines);
+
+    for (i = 1; i < m; i++) {
+      lines = [];
+      for (j = 0; j < n; j++) {
+        lines.push(edgeDistributions());
+      }
+      lineGroups.push(lines);
+    }
+
+    lines = [];
+    for (j = 0; j < n; j++) {
+      lines.push([[0, 0], [1,0]]);
+    }
+    lineGroups.push(lines);
+
+    return lineGroups;
+  };
+
+  var transposePoint = function(point) {
+    return [point[1], point[0]];
+  };
+
+  var offsetPoint = function(point, columnIndex, rowIndex, columnWidth, rowHeight) {
+    var offsetColumnPosition = function(percent, columnWidth, columnIndex) {
+      var columnOffset = columnWidth * columnIndex;
+      return percent * columnWidth + columnOffset;
+    };
+
+    var offsetRowPosition = function(percent, rowHeight, rowIndex) {
+      var rowOffset = rowHeight * rowIndex;
+      return percent * rowHeight + rowOffset;
+    };
+
+    var x = offsetColumnPosition(point[0], columnWidth, columnIndex);
+    var y = offsetRowPosition(point[1], rowHeight, rowIndex);
+
+    return [x, y];
+  };
+
+  var offsetPoints = function(lineGroups, offsetter) {
+    for (var i=0; i<lineGroups.length; i++) {
+      var lines = lineGroups[i];
+      for (var j=0; j<lines.length; j++) {
+        lines[j] = lines[j].map(function(point) {
+          return offsetter(point, j, i);
+        });
+      }
+    }
+  };
+
+  var buildPieces = function(rowCount, columnCount) {
+    var rowHeight = height / rowCount;
+    var columnWidth = width / columnCount;
+    var pieces = [];
+
+    var rows = buildDistributions(rowCount, columnCount);
+    offsetPoints(rows, function(point, j, i) {
+      return offsetPoint(point, j, i, columnWidth, rowHeight);
+    });
+
+    var columns = buildDistributions(columnCount, rowCount);
+    offsetPoints(columns, function(point, j, i) {
+      return offsetPoint(transposePoint(point), i, j, columnWidth, rowHeight);
+    });
+
+    for (var rowIndex = 1; rowIndex <= rowCount; rowIndex++) {
+      for (var columnIndex = 0; columnIndex < columnCount; columnIndex++) {
+        var edges = [];
+        edges.push(rows[rowIndex - 1][columnIndex]);
+        edges.push(columns[columnIndex + 1][rowIndex - 1]);
+        edges.push(rows[rowIndex][columnIndex].slice().reverse());
+        edges.push(columns[columnIndex][rowIndex - 1].slice().reverse());
+
+        pieces.push(edges);
+      }
+    }
+
+    return pieces;
+  };
+/*
+  var d3CurvedLine = d3_shape.line().curve(d3_shape.curveBasis);
+
+  var piecePathData = function(piece) {
+    return piece.map(function(edge) {
+      return d3CurvedLine(edge);
+    }).join(" ");
+  };
+*/
+
+var d3CurvedLine = d3_shape.line();
+
+  var piecePathData = function(piece) {
+    var l = d3CurvedLine;
+    l.curve(d3_shape.curveBasis);
+    /*return piece.map(function(edge) {
+      // l
+      return l;
+    }).join(" ");*/
+    return l;
+  };
+
+  var buildPiecePaths = function(pieces) {
+    return pieces.map(function(piece) {
+      return svg.path(piecePathData(piece));
+    });
+  };
+
+  // SVG helpers
+  var svg = {
+    openTag: '<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="' + width + '" height="' + height + '">'+
+    '<defs><pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100"><image xlink:href="http://img-fotki.yandex.ru/get/43572/35931700.154/0_e1587_524341bd_orig" x="0" y="0" width="'+width+'" height="'+height+'" /></pattern></defs>',
+    closeTag: '</svg>',
+    path: function(pathData) {
+      return '<path fill="url(#img1)" vector-effect="non-scaling-stroke" d="' + pathData + '"/>';
+    }
+  };
+
+  $(function() {
+    var generate = function() {
+      var rowCount = parseInt($("#rowCount").val(), 10);
+      var columnCount = parseInt($("#columnCount").val(), 10);
+
+      var pieces = buildPieces(rowCount, columnCount);
+      var piecePaths = buildPiecePaths(pieces).join("");
+
+      var svgNode = [
+        svg.openTag,
+        piecePaths,
+        svg.closeTag
+      ].join("");
+
+      $("#container").empty().append($(svgNode));
+    }
+
+    //$('input').change(generate);
+
+    generate();
+  });
+</script>
+
+</body></html>

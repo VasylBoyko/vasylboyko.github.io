@@ -1,0 +1,253 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <script type="text/javascript">
+	var CLIENT_ID = '790035903816-3d73bb39iogl6ddav2ph47tel1dinsba.apps.googleusercontent.com';
+	var SCOPES = [
+		'https://www.googleapis.com/auth/drive',
+		'https://www.googleapis.com/auth/drive.file'
+	].join(" ");
+
+	function handleClientLoad() {
+		window.setTimeout(checkAuth, 1);
+	}
+
+	function checkAuth() {
+		gapi.auth.authorize({'client_id': CLIENT_ID, 'scope': SCOPES, 'immediate': true}, handleAuthResult);
+	}
+
+	function handleAuthResult(authResult) {
+		var authButton = document.getElementById('authorizeButton');
+		authButton.style.display = 'none';
+		if (authResult && !authResult.error) {
+			gapi.client.load('drive', 'v2', function() {
+				playerInit();
+			});
+		} else {
+			// No access token could be retrieved, show the button to start the authorization flow.
+			authButton.style.display = 'block';
+			authButton.onclick = function() {
+				gapi.auth.authorize(
+					{'client_id': CLIENT_ID, 'scope': SCOPES, 'immediate': false},
+					handleAuthResult);
+			};;
+		}
+	}
+	   
+	function retrieveAllFiles(callback) {
+		var retrievePageOfFiles = function(request, result) {
+			request.execute(function(resp) {
+				result = result.concat(resp.items);
+				var nextPageToken = resp.nextPageToken;
+				if (false && nextPageToken) {
+					request = gapi.client.drive.files.list({
+					'pageToken': nextPageToken
+					});
+					retrievePageOfFiles(request, result);
+				} else {
+					callback(result);
+				}
+			});
+		}
+		var initialRequest = gapi.client.drive.files.list();
+			retrievePageOfFiles(initialRequest, []);
+	}
+		
+		
+      
+	function playerInit() {
+		var currentSong,
+			currentPlayer;
+		
+		function switchPlayers(){
+			currentPlayer = (currentPlayer.id=="player") ?  document.getElementById("player2") :  document.getElementById("player");
+		}
+		
+		function playNext(){
+			setCurrentSong(currentSong.nextSibling || currentSong.parentNode.firstChild);
+			playFile();
+		}
+		
+		function setCurrentSong(list_item){
+			if (currentSong){
+				currentSong.className = ""
+			}
+			currentSong = list_item;
+			currentSong.className = "selected";
+		}
+		
+		function playFile(){
+			currentPlayer.play();
+
+			switchPlayers();
+			var nextSong = (currentSong.nextSibling || currentSong.parentNode.firstChild);
+			if (nextSong){
+				var url = unescape(nextSong.getAttribute("data-url"));
+				currentPlayer.src = url;
+			}
+		}
+		
+		function updatePlayList(callback) {
+			retrieveAllFiles(function(files){
+				if (files){
+					document.getElementById("playerContainer").style.display = "block";
+					document.getElementById("play_list").innerHTML = files.filter(function(el){return el && el.fileExtension && el.fileExtension === "mp3"}).map(function(el){
+					
+						//return "<div tabindex='0' data-url='" + escape(el.downloadUrl) + "'><a href='" + el.downloadUrl + "'>" + el.originalFilename + "</a></div>"
+						return "<div tabindex='0' data-url='" + escape(el.downloadUrl.replace('&e=download&gd=true', '')) + "'>" + el.originalFilename + "</div>"
+					}).join("");
+					callback && callback();
+				} else {
+					alert("wtf");
+				}
+			});
+		}
+		
+		
+
+		document.getElementById('play_list').addEventListener("dblclick", function(ev) {
+			var listItem = ev.target;
+			currentPlayer.src = unescape(listItem.getAttribute("data-url"));
+			setCurrentSong(listItem);
+			playFile(listItem);
+		});
+		
+		updatePlayList(function(){
+			var listItem = document.getElementById("play_list").firstChild;
+				currentPlayer.src = unescape(listItem.getAttribute("data-url"));
+			setCurrentSong(listItem);
+			playFile(listItem);
+		});
+	
+		function loadedMetadata(ev){
+			console.log(ev);
+		}
+		
+		
+		var AudioContext = window.AudioContext || window.webkitAudioContext,
+			equalizer = document.getElementById("equalizer")
+		
+		function initPlayer(audio) {
+			var an = {};
+			
+			an.context = new AudioContext();
+			an.node = an.context.createScriptProcessor(2048, 1, 1);
+			//Создаем анализатор
+			an.analyser = an.context.createAnalyser();
+			an.analyser.smoothingTimeConstant = 0.3;
+			an.analyser.fftSize = 512;
+			an.bands = new Uint8Array(an.analyser.frequencyBinCount);
+
+			audio.addEventListener("ended", playNext);
+			audio.addEventListener('loadedmetadata', loadedMetadata, false);
+			//audio.addEventListener('canplay', function () {
+				an.source = an.context.createMediaElementSource(audio);
+				an.source.connect(an.analyser);
+				an.analyser.connect(an.node);
+				an.node.connect(an.context.destination);
+				an.source.connect(an.context.destination);
+				an.node.onaudioprocess = function () {
+					an.analyser.getByteFrequencyData(an.bands);
+				//	if (!audio.paused) {
+						update(an.bands);
+				//	}
+				};
+		//	});
+			
+			function update(bands) {
+				var ln = 50;
+					while (ln--) {
+						var loc = equalizer.children[ln];
+						loc.style.height = bands[ln * 4] / 4  + "px";
+					}
+			};
+			return audio;
+		}
+		
+		initPlayer(document.getElementById('player2'));
+		currentPlayer = initPlayer(document.getElementById('player'));
+	}
+	
+
+    </script>
+    
+    
+    <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <style>
+		#playerContainer{
+			width: 500px;
+			background: #000;
+			padding: 10px;
+		}
+		.player_controls{
+			border: 1px solid #595959;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.play_list {
+			height: 750px;
+			overflow-y: auto;
+			border: 1px solid #595959;
+			-webkit-user-select: none;
+		}
+		
+		.play_list div{
+			color: #2499ff;
+			font-family: sans-serif;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 0 10px;
+		}
+		
+		.play_list div:hover{
+			color: #2499ff;
+			background-color: #0a124a;
+		}
+		
+		.play_list div:focus{
+			color: #2499ff;
+			outline: 1px dotted #2499ff;
+		}
+		
+		.play_list div.selected{
+			background-color: #0a124a;
+			outline: 1px solid #2499ff;
+			color: #ffffff;
+		}
+		
+		.equalizer {
+			height: 65px;
+			width: 100px;
+			border: 1px solid #595959;
+		}
+		.equalizer div{
+			vertical-align: bottom;
+			display: inline-block;
+			width: 2px;
+			height: 65px;
+			background: linear-gradient(to top, red,orange,yellow,green);
+		}
+    </style>
+  </head>
+  <body>
+    <input type="button" id="authorizeButton" style="display: none" value="Authorize" />
+	<div id = "playerContainer" style="display: none;">
+		<div class= "player_controls">
+			<div class="equalizer" id="equalizer">
+				<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+				><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+				><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+				><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+				><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+				><div style="width: 0px;"></div>
+			</div>
+			<audio id ="player" controls="true"></audio>
+			<audio id ="player2" controls="true"></audio>
+			
+		</div>
+		
+		<div id="play_list" class="play_list" ></div>
+    </div>
+  </body>
+</html>

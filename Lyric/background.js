@@ -10,50 +10,40 @@ chrome.runtime.onMessage.addListener(function(request, sender, callback) {
     var tabId = sender.tab.id, artist, title;
     
     function loadLyric(artist, title, callback) {
-        function onError(description){
-    	    chrome.tabs.sendMessage(tabId, {action: "errorOnLoad", description: description});
-	    }
-
-        function sendAjax(method, url, callback, error) {
-	        var xhr = new XMLHttpRequest();
-	        xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4) {
-			        if (xhr.status === 200) {
-				        callback(xhr.responseText);
-			        } else {
-				        error && error("request error");
-			        }
-		        }
-	        }
-	        xhr.open("GET", url, true);
-	        xhr.send("");	
-        }     
-	    
 	    var url = "https://lyrics.wikia.com/api.php?action=lyrics&artist=" + encodeURIComponent(artist) + "&song=" + encodeURIComponent(title) + "&fmt=json";
-	    sendAjax("GET", url, function(response) {
+	    fetch(url).then(function (response) {
+	        return response.text();
+        }).then(function(response) {
             var song = {};
 		    response.split("\n").map(function(el){return el.match(/'(.*)':'(.*)',?$/)}).forEach(function(el){if (el) {song[el[1]] = el[2]}});
 	        if (song.lyrics === 'Not found') {
-		        chrome.tabs.sendMessage(tabId, {action: "notFound"});
+	            return {action: "notFound"};
 	        } else if (song.url) {
 	            artist = song.artist;
 	            title = song.song;
+	            url = song.url
 	            chrome.tabs.sendMessage(tabId, {action: "gotLyricPage", lyric: "Loading...", artist: artist, title: title});
-		        sendAjax("GET", song.url, function(response2) {
-			        callback(response2);
-		        }, onError);
+	            return fetch(song.url).then(function (res) {
+                    return res.text();
+	            }).then(function(text) {
+                    var a = text.match(/<div class='lyricbox'>([\s\S]*)<p>NewPP limit report/);
+                    if (a && a[1]) {
+                        text = a[1];
+                    };
+                    return {action: "gotLyricPage", lyric: text, artist: artist, title: title};
+                });
 		    } else {
-		        onError(response);
+		        return Promise.reject(response);
 		    }
-	    }, onError);
+        }).then(function(result) {
+            chrome.tabs.sendMessage(tabId, result);
+        }).catch(function (description){
+    	    chrome.tabs.sendMessage(tabId, {action: "errorOnLoad", description: description});
+	    });
     }
     
     if (request.action == "get_lyric") {
-       artist = request.artist;
-       title = request.title;
-       loadLyric(artist, title, function(text) {
-           text = text.split("atechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)};}})();</script>")[1].split("<p>NewPP limit report")[0];
-           chrome.tabs.sendMessage(tabId, {action: "gotLyricPage", lyric: text, artist: artist, title: title});
-       });
+       loadLyric(request.artist, request.title);
     }
 });
+

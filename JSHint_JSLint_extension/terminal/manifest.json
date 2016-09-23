@@ -1,0 +1,27 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "panel/index.html"
+      }
+   },
+   "author": "Dmitry Filimonov",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Local terminal in your browser.",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icons/app-icon-128.png",
+      "16": "icons/app-icon-16.png",
+      "32": "icons/app-icon-32.png",
+      "48": "icons/app-icon-48.png",
+      "64": "icons/app-icon-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKAvkWXXRDjslE2fWuwQ/oDEaot6vRqxx9bhRXDGVPZO+J0huJ1r+Y/sUdDXN0XfWPo1BXgJzhxFkpHi3N3IHKkuOt5xbRUT8kzdd6ymab+p1BozYdby1r6+bwRb6K2a18OohtzxGTvDp3s7fiNtdIxurGNacvH3+KZUD4xWl1DwIDAQAB",
+   "manifest_version": 2,
+   "name": "Devtools Terminal",
+   "optional_permissions": [  ],
+   "permissions": [ "storage", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.0"
+}

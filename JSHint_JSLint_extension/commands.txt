@@ -1,0 +1,101 @@
+console.log("+972505769368", "Tt1234567");
+console.log("+972542124455", "Mkvr1234");
+
+app.call("registration").loginUser("380661849895@fring.com", "7d6bc4fc8f5645");
+app.call("registration").loginUser("380661849899@fring.com", "b79776a96b0e44");
+app.call("registration").loginUser("380661849888@fring.com", "3af5d510d76f4e");
+app.call("registration").loginUser("380674470317@fring.com", "d1aaedf4542e4c");
+app.call("registration").loginUser("380934212701@fring.com", "dcbdf14cea5c4a");
+app.call("registration").loginUser("380930980750@fring.com", "040c0762d1024a");
+app.call("registration").loginUser("380981731250@fring.com", "3033e816a3c644");
+app.call("registration").loginUser("380687381273@fring.com", "20edb2eae8fb49");
+app.call("registration").loginUser("380935946735@fring.com", "4c552d4b609049");
+app.call("registration").loginUser("380966323849@fring.com", "");
+
+
+
+app.call("registration").loginUser("380630000001@fring.com", "72e2c89164924a");
+app.call("registration").loginUser("380630000002@fring.com", "baacefcf172e46");
+
+app.call("registration").loginUser("972542205056@fring.com", "b772dd73469d42"); //ASI
+app.call("registration").loginUser("972545246278@fring.com", "6fc42cd70ff94f"); //Ram
+
+
+app.call("registration").loginUser("380930980750@optus.poc", "cd38f3f84aef4d");
+app.call("registration").loginUser("380930980749@optus.poc", "3cb8c15a53944e");
+app.call("registration").loginUser("380934212701@optus.poc", "c5da64bd604f43");
+
+app.call("registration").loginUser("380661849899@optus.poc", "ebcab501b38745");
+app.call("registration").loginUser("380661849888@optus.poc", "b409cbd9fdb642");
+app.call("registration").loginUser("380661849877@optus.poc", "53a2831b008643");  //Vitalik
+app.call("registration").loginUser("380685417947@fring.com", "c095187adb9c40");  //Vitalik new
+app.call("registration").loginUser("380674470317@optus.poc", "85275af4063b43");
+
+app.call("registration").loginUser("5570@kandysmbtest.com", "Qwer1Zxcv0");
+app.call("registration").loginUser("5571@kandysmbtest.com", "Qwer1Zxcv0");
+app.call("registration").loginUser("5572@kandysmbtest.com", "Qwer1Zxcv0");
+app.call("registration").loginUser("5573@kandysmbtest.com", "Qwer1Zxcv0");
+
+app.call("registration").loginUser("7669@kandysmbtest.com", "Qwer1Zxcv0"); //Ruslan Kryvosheiev
+app.call("registration").loginUser("7670@kandysmbtest.com", "Qwer1Zxcv0"); //Galyna Aliek   sandrova
+app.call("registration").loginUser("7671@kandysmbtest.com", "Qwer1Zxcv0"); //Iuliia Demachkovych
+app.call("registration").loginUser("7672@kandysmbtest.com", "Qwer1Zxcv0"); //Vasyl Boyko
+
+
+app.call("registration").loginUser("380935946735@sparkle.poc", "c210e06e6b7242"); //Galka
+app.call("registration").loginUser("380630608843@sparkle.poc", "27ec454c44594b"); //Vlad
+app.call("registration").loginUser("972545246278@sparkle.poc", "7ff73fcb824f42"); //Ron
+app.call("registration").loginUser("380966446434@sparkle.poc"," e47f29091d3543");
+
+app.call("registration").loginUser("972528478048@ivitta.com", "0e36ad1b0bc441");
+app.call("registration").loginUser("380685417947@ivitta.com", "8df7d31273e345");
+
+app.call("registration").loginUser("delaruem@genband.com", "abcd1234");
+app.call("registration").loginUser("garacah@genband.com", "GBpw3055");
+app.call("registration").loginUser("gredreyj@genband.com", "ab12cd34");
+app.call("registration").loginUser("aselad@genband.com", "ab12cd34");
+
+app.call("registration").loginUser("380685417947@immmer.de", "dae48647428c4d");
+app.call("registration").loginUser("4915112617519@immmer.de", "1b49b0cea0154d")
+app.call("registration").loginUser("972545246278@immmr.de", "3413d492865842")
+
+app.call("registration").loginUser("380674470317@kandy.com", "3574645d891140")
+app.call("registration").loginUser("380934212701@kandy.com", "U607defd90ced483J")
+app.call("registration").loginUser("380980406212@kandy.com", "wd70bce9c505944en")  //Marta
+app.call("registration").loginUser("972542205056@kandy.com", "zd60790cb552c49bq")  //ASI
+
+app.call("registration").loginUser("380674470317@dtopencommunity.de", "153be0ac899b44")
+app.call("registration").loginUser("robinsummers@patricktestdomain4.genband.com", "abcd1234")
+
+app.call("registration").loginUser("david.homolicsan@dtdirectory.de", "test1234!")
+app.call("registration").loginUser("adam.itshar@dtdirectory.de", "test1234!")
+app.call("registration").loginUser("david.homolicsan@dtdirectory.de", "test1234!")
+app.call("registration").loginUser("carsten.neumann@dtdirectory.de", "test1234!")
+
+app.call("registration").loginUser("972542405850@dtopencommunity.de", "ec5d74a1533946")
+app.call("registration").loginUser("972528478048@dtopencommunity.de", "b8084fdeff4040")
+app.call("registration").loginUser("972508888855@dtopencommunity.de", "ffb9d01fcd264d")
+app.call("registration").loginUser("972508888856@dtopencommunity.de", "1f52da138e1b47")
+app.call("registration").loginUser("972508888857@dtopencommunity.de", "f70ad771848744")
+
+
+app.call("registration").loginUser("7618@kandysmb.com", "Qwer1Zxcv0") //Ruslan Kryvosheiev
+app.call("registration").loginUser("7619@kandysmb.com", "Qwer1Zxcv0") //Galyna Alieksandrova
+app.call("registration").loginUser("7624@kandysmb.com", "Qwer1Zxcv0") //Iuliia Demachkovych
+app.call("registration").loginUser("7625@kandysmb.com", "Qwer1Zxcv0") //Vasyl Boyko
+app.call("registration").loginUser("7626@kandysmb.com", "Qwer1Zxcv0") //Taras Franchuk
+app.call("registration").loginUser("7629@kandysmb.com", "Qwer1Zxcv0") //Vladyslav Lytvynenko
+app.call("registration").loginUser("7627@kandysmb.com", "Qwer1Zxcv0") //Vitaliy Melnyk
+app.call("registration").loginUser("7628@kandysmb.com", "Qwer1Zxcv0") //Ilia Kornilov
+app.call("registration").loginUser("9900@kandysmb.com", "Qwer1Zxcv0")
+app.call("registration").loginUser("0104@kandysmb.com", "Qwer1Zxcv0")
+
+
+// Nuvia
+app.call("registration").loginUser("mike@aptrials.com", "abcd1234");
+app.call("registration").loginUser("jean@aptrials.com", "abcd1234");
+
+
+//immmr +380 935946735    t0p$ecret        blabla123
+
+
