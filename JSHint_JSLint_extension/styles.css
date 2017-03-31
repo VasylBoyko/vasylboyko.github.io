@@ -126,6 +126,11 @@ input[readonly] {
     height: 36px;
     line-height: 36px;
 }
+.toolbar button {
+    vertical-align: top;
+    display: inline-block;
+}
+}
 .commands_editor, .stored_commands {
     height: calc(100% - 40px);
     box-sizing: border-box;
@@ -139,4 +144,11 @@ input[readonly] {
 .editmode .commands_editor {
     display: block;
     background-color: #fee;
+}
+
+.editmode #editBtn, #saveBtn, #cancelBtn {
+    display: none;
+}
+.editmode #saveBtn, .editmode #cancelBtn {
+    display: inline-block;
 }

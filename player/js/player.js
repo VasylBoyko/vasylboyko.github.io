@@ -164,6 +164,7 @@ var Player = function() {
 
     function setShuffle() {
         mainWindow.setShuffle();
+        playList.setShuffle();
     }
 
     function setVolume(value) {

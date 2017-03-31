@@ -7,7 +7,22 @@ function PlayList() {
         currentSong = null,
         list = document.getElementById('play_list');
 
-	
+	function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex;
+      while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+      return array;
+    }
+
+    function setShuffle() {
+        
+    }
+
 	function getItem(listItem, callback) {
         var itemId = listItem.dataset.id,
             item =  _fileList.filter(function(el) {return el.id == itemId})[0];
@@ -95,7 +110,7 @@ function PlayList() {
             function(){console.log("failed to save list")}
         );
     }
-    
+
     return {
         init: init,
         save: save,
@@ -103,6 +118,7 @@ function PlayList() {
         setCurrentSong: setCurrentSong,
         getNextSong: getNextSong,
         getPrevSong: getPrevSong,
-        getCurrentSong: getCurrentSong
+        getCurrentSong: getCurrentSong,
+        setShuffle: setShuffle
     };
 }

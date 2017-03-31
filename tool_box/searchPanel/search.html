@@ -1,0 +1,67 @@
+<head>
+    <script src="searchpanel.js"></script>
+    <link type="text/css" rel="stylesheet" href="treeoutline.css" />
+    <link type="text/css" rel="stylesheet" href="sourceSearch.css" />
+    
+    <style>
+        div#search_results_container {
+            flex: 1;
+            overflow: auto;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            font-family: "Noto Sans", Arial, sans-serif;
+        }
+
+        div#search_box {
+            flex: 0 0 30px;
+            display: flex;
+            border-bottom:1px solid  #cccccc; 
+        }
+
+        input[type="search"] {
+            flex: 0 0 50%;
+            padding: 0 5px;
+            border: none;
+            border-right: 1px solid  #cccccc;
+        }
+        input[type="checkbox"] {
+            vertical-align: text-top;
+        }
+
+
+        #search_box div {
+            line-height: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .tree-outline-disclosure {
+            overflow: auto;
+            flex: 1;
+        }
+    </style>
+    
+</head>
+<body>
+    <template id="search_res_file_entry">
+        <li class="parent search-result expanded">
+            <div class="selection fill"></div>
+            <span class="tree-element-title"></span>
+            <span class="search-result-file-name"></span>
+            <span class="search-result-matches-count"></span>
+        </li>
+        <ol class="children expanded"></ol>
+    </template>
+    <template  id="search_res_line_entry"><li class="search-match source-code"><div class="selection fill"></div><span class="tree-element-title"></span><span class="devtools-link"><span class="search-match-line-number"></span><span class="search-match-content"></span></span></li><ol class="children"></ol></template>
+    <div id="search_box">
+        <input id="search_input" type="search" />
+        <div><input id="ignore_case" type="checkbox"/><label for="ignore_case">Ignore case</label></div>
+        <div><input id="regular_expression" type="checkbox"/><label for="ignore_case">Regular expression</label></div>      
+    </div>
+    <div class="tree-outline-disclosure"><ol id="search_results" class="tree-outline" tabindex="0"></ol></div>
+</body>

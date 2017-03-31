@@ -1,3 +1,7 @@
+document.cookie = "app=fringkandy"; location.reload(true);
+document.cookie = "app=communicator"; location.reload(true);
+document.cookie = "app=immmr-dev";  location.reload(true);
+
 console.log("+972505769368", "Tt1234567");
 console.log("+972542124455", "Mkvr1234");
 
@@ -92,10 +96,18 @@ app.call("registration").loginUser("0104@kandysmb.com", "Qwer1Zxcv0")
 
 
 // Nuvia
-app.call("registration").loginUser("mike@aptrials.com", "abcd1234");
-app.call("registration").loginUser("jean@aptrials.com", "abcd1234");
+app.call("registration").loginUser("galynaa@kandysmbtest.com", "Qwer1Zxcv0");
+app.call("registration").loginUser("1234@kandysmbtest.com", "Qwer1Zxcv0");
 
+app.call("registration").loginUser("972545246278@kandycn.com","591282ecdc4645");
 
 //immmr +380 935946735    t0p$ecret        blabla123
+
+//user1: +49123456789011 test6666!
+//user2: +49123456789013 test6666!
+//user3: +49123456789014 test6666!
+//user4: +49123456789015 test6666!
+//user5: +49123456789016 test6666!
+
 
 

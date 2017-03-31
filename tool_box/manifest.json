@@ -1,0 +1,21 @@
+{
+  "name": "ToolBox",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "icons": { "16": "icon_16.png",
+             "48": "icon_48.png",
+             "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_48.png",
+    "default_popup": "options.html"
+  },
+  "sandbox": {
+    "pages": ["sandboxed/firebase222.html"]
+  },
+  "content_security_policy": "object-src 'self'; script-src 'self' https://www.gstatic.com https://*.firebase.com https://*.firebaseio.com",
+  "permissions": [ "tabs", "tts", "ttsEngine" , "<all_urls>", "identity", "identity.email", "notifications", "https://www.gstatic.com/*"]
+}
