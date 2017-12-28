@@ -4,23 +4,31 @@
             callback = function () {};
         chrome.devtools.panels.openResource(url, lineNumber, callback);
     }
+    var tm = null;
+    
     function performSearch(filter) {
-        var params = ["js", "css", "scss","html"];
-        
-        options = "" + 
-            (document.getElementById("ignore_case").checked && "i" || "") + 
-            (!document.getElementById("regular_expression").checked && "F" || "")
-
-        if (filter) {
-            window._ws.send(JSON.stringify({
-                execute: {
-                    cmd: "find_text",
-                    arguments: [filter, options]
-                }
-            }));
+        if (tm) {
+            clearTimeout(tm);
         }
-        filter = "";
-        
+        tm = setTimeout(function () {
+            tm = null;
+            var params = ["js", "css", "scss","html"];
+            
+            options = "" + 
+                (document.getElementById("ignore_case").checked && "i" || "") + 
+                (!document.getElementById("regular_expression").checked && "F" || "")
+
+            if (filter) {
+                window._ws.send(JSON.stringify({
+                    execute: {
+                        cmd: "find_text",
+                        arguments: [filter, options]
+                    }
+                }));
+            }
+            filter = "";
+            
+        }, 500);
         return Promise.resolve([]);
     }
     
@@ -103,7 +111,6 @@
                 return;
             }
             res += evt.data;
-            
             if (/\n$/.test(evt.data)) {
                 var data = res.split("\n").map(function (row) {
                     if (row) {

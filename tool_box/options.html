@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tabs.js"></script>
+    <style>
+        html, body {
+            width: 760px;
+            min-height: 400px;
+        }
+    </style>
+  </head>
+  <body>
+    <template id="x-tab-template">
+      <style>
+        .container{
+            display: flex;
+            align-items: flex-start;
+            padding: 5px;
+            position: relative;
+        }
+        p { 
+            color: #222222;
+			padding-left: 5px;
+			margin: 0;
+			flex: 1 1 auto;
+			overflow: hidden;
+			text-overflow: ellipsis;
+        }
+        img{
+	        flex: 0 0 16px;
+            max-width: 16px;
+            max-height: 16px;
+        }
+        [data-action="close"] {
+        	width: 10px;
+        	height: 10px;
+        	flex: 0 0 10px;
+        	background-color: red;
+        	border: 1px solid #222222;
+        	border-radius: 3px;
+        	opacity: 0.3
+        }
+        [data-action="close"]:hover {
+        	opacity: 1
+        }
+      </style>
+      <div class="container">
+          <img src="" />
+          <p></p>
+          <div data-action="close"></div>
+
+    </template>
+    <div>
+        <div class="tabsContainer" id="tabsContainer"></div>
+        <div class="tabDetails">
+            <div class="tabInfo"></div>
+            <div class="tabPreview">
+                <img id="tabThumb" />  
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
