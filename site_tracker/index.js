@@ -3,8 +3,8 @@
 var sys = require("system"),
     page = require("webpage").create(),
     logResources = false,
-	user = encodeURIComponent(process.env.GL_USER),
-	pass = encodeURIComponent(process.env.GL_PASS),
+	user = encodeURIComponent(sys.env.GL_USER),
+	pass = encodeURIComponent(sys.env.GL_PASS),
     url = 'https://' + user + ':' + pass + '@portal-ua.globallogic.com/officetime/#graph/LWO/701/month/0';
 
 function printArgs() {
