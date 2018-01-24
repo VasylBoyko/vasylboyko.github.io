@@ -1,6 +1,4 @@
-import React, {
-    Component
-} from 'react';
+import React, {Component} from 'react';
 import PlayListItem from './PlayListItem';
 import PropTypes from 'prop-types';
 
@@ -12,7 +10,14 @@ export default class PlayList extends Component {
     }
 
 	onListItemClicked(itemId) {
-		this.props.selectedItem = itemId;
+        debugger
+        this.setState({
+            selectedItem: itemId
+        });
+        if (this.props.onItemSelected) {
+            this.props.onItemSelected(itemId);
+        }
+		
 	}
 
     render() {
@@ -28,5 +33,6 @@ export default class PlayList extends Component {
 
 PlayList.propTypes = {
     listItems: PropTypes.array,
-	selectedItem: PropTypes.string
+    selectedItem: PropTypes.string,
+    onItemSelected: PropTypes.func
 };

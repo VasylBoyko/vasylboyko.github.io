@@ -1,9 +1,7 @@
 body {
 	background: #dfdfdf;
 	padding: 0px;
-	div {
-		background: #fdfdfd;
-	}
 }
 
-@import "player"
+@import "player";
+@import "videoFrame";

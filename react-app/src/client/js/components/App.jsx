@@ -8,8 +8,8 @@ export default class App extends Component {
 
     return (
       <div>
-        <h1>hello world {isMobile ? 'mobile' : 'desktop'}</h1>
-		<Player></Player>
+        <h1>Player {isMobile ? 'mobile' : 'desktop'}</h1>
+        <Player></Player>
       </div>
     );
   }
@@ -17,4 +17,4 @@ export default class App extends Component {
 
 App.propTypes = {
   isMobile: PropTypes.bool.isRequired
-}; 
+};

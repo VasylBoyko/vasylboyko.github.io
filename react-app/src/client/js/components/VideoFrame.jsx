@@ -10,12 +10,11 @@ export default class VideoFrame extends Component {
     }
     render() {
         return (
-			<iframe width="640" height="385" src={"https://www.youtube.com/embed/"+this.ytId} frameBorder="0" allowFullScreen=""></iframe>
+			<iframe class="videoFrame" width="640" height="385" src={"https://www.youtube.com/embed/"+this.ytId} frameBorder="0" allowFullScreen=""></iframe>
 		);
     }
 }
 
 VideoFrame.propTypes = {
   ytId: PropTypes.string
-}; 
-
+};

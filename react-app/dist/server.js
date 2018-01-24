@@ -107,6 +107,8 @@ var server = (0, _express2.default)();
 
 server.use('/assets', _express2.default.static('assets'));
 
+//shows/{:showId}}/{:seasonId}/{:episodeId}
+
 server.get('/', function (req, res) {
   var isMobile = false;
   var initialState = { isMobile: isMobile };
@@ -157,6 +159,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(0);
@@ -194,17 +198,7 @@ var App = function (_Component) {
       var isMobile = this.props.isMobile;
 
 
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'h1',
-          null,
-          'hello world ',
-          isMobile ? 'mobile' : 'desktop'
-        ),
-        _react2.default.createElement(_Player2.default, null)
-      );
+      return _jsx('div', {}, void 0, _jsx('h1', {}, void 0, 'Player ', isMobile ? 'mobile' : 'desktop'), _jsx(_Player2.default, {}));
     }
   }]);
 
@@ -228,6 +222,8 @@ App.propTypes = {
 Object.defineProperty(exports, "__esModule", {
 		value: true
 });
+
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -267,21 +263,24 @@ var Player = function (_Component) {
 		}
 
 		_createClass(Player, [{
+				key: 'onListItemChanged',
+				value: function onListItemChanged() {}
+		}, {
 				key: 'render',
 				value: function render() {
 						//    const { isMobile } = this.props;
 
-						return _react2.default.createElement(
-								'div',
-								{ className: 'player' },
-								_react2.default.createElement(_VideoFrame2.default, { src: this.currentYtId }),
-								_react2.default.createElement(_PlayList2.default, { listItems: this.listItems, selectedItem: this.selectedItem }),
-								_react2.default.createElement(
-										'div',
-										null,
-										this.selectedItem
-								)
-						);
+						return _jsx('div', {
+								className: 'player'
+						}, void 0, _jsx(_VideoFrame2.default, {
+								src: this.currentYtId
+						}), _jsx(_PlayList2.default, {
+								listItems: this.listItems,
+								onItemSelected: this.onListItemChanged.bind(this),
+								selectedItem: this.selectedItem
+						}), _jsx('div', {
+								className: 'videoDescription'
+						}, void 0, this.selectedItem));
 				}
 		}]);
 
@@ -306,6 +305,8 @@ exports.default = Player;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -340,7 +341,14 @@ var VideoFrame = function (_Component) {
     _createClass(VideoFrame, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('iframe', { width: '640', height: '385', src: "https://www.youtube.com/embed/" + this.ytId, frameBorder: '0', allowFullScreen: '' });
+            return _jsx('iframe', {
+                className: 'videoFrame',
+                width: '640',
+                height: '385',
+                src: "https://www.youtube.com/embed/" + this.ytId,
+                frameBorder: '0',
+                allowFullScreen: ''
+            });
         }
     }]);
 
@@ -364,6 +372,8 @@ VideoFrame.propTypes = {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -403,24 +413,27 @@ var PlayList = function (_Component) {
     _createClass(PlayList, [{
         key: 'onListItemClicked',
         value: function onListItemClicked(itemId) {
-            this.props.selectedItem = itemId;
+            debugger;
+            this.setState({
+                selectedItem: itemId
+            });
+            if (this.props.onItemSelected) {
+                this.props.onItemSelected(itemId);
+            }
         }
     }, {
         key: 'render',
         value: function render() {
             var self = this,
                 playlist = this.listItems.map(function (ytId) {
-                return _react2.default.createElement(
-                    _PlayListItem2.default,
-                    { onClick: self.onListItemClicked.bind(self), ytId: ytId, key: ytId },
-                    ytId
-                );
+                return _jsx(_PlayListItem2.default, {
+                    onClick: self.onListItemClicked.bind(self),
+                    ytId: ytId
+                }, ytId, ytId);
             });
-            return _react2.default.createElement(
-                'div',
-                { className: 'playList' },
-                playlist
-            );
+            return _jsx('div', {
+                className: 'playList'
+            }, void 0, playlist);
         }
     }]);
 
@@ -432,7 +445,8 @@ exports.default = PlayList;
 
 PlayList.propTypes = {
     listItems: _propTypes2.default.array,
-    selectedItem: _propTypes2.default.string
+    selectedItem: _propTypes2.default.string,
+    onItemSelected: _propTypes2.default.func
 };
 
 /***/ }),
@@ -445,6 +459,8 @@ PlayList.propTypes = {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -473,6 +489,14 @@ var PlayListItem = function (_Component) {
         var _this = _possibleConstructorReturn(this, (PlayListItem.__proto__ || Object.getPrototypeOf(PlayListItem)).call(this, props));
 
         _this.ytId = _this.props.ytId;
+        var self = _this;
+
+        console.log("new");
+
+        setTimeout(function () {
+            self.ytId = "ssss";
+            console.log("updated");
+        });
         return _this;
     }
 
@@ -484,12 +508,10 @@ var PlayListItem = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'playListItem', onClick: this.onClick.bind(this) },
-                ' ',
-                this.ytId
-            );
+            return _jsx('div', {
+                className: 'playListItem',
+                onClick: this.onClick.bind(this)
+            }, void 0, ' ', this.ytId);
         }
     }]);
 

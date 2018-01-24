@@ -13,15 +13,18 @@ export default class Player extends Component {
 			"1iAG6h9ff5s",
 		];
 	}
+	onListItemChanged () {
+
+	}
   render() {
 //    const { isMobile } = this.props;
-
+		
     return (
-      <div className="player">
-        <VideoFrame src={this.currentYtId}></VideoFrame>
-		<PlayList listItems={this.listItems} selectedItem={this.selectedItem}></PlayList>
-		<div>{this.selectedItem}</div>
-      </div>
+		<div class="player">
+			<VideoFrame src={this.currentYtId}></VideoFrame>
+			<PlayList listItems={this.listItems} onItemSelected={this.onListItemChanged.bind(this)} selectedItem={this.selectedItem}></PlayList>
+			<div class="videoDescription">{this.selectedItem}</div>
+		</div>
     );
   }
 }

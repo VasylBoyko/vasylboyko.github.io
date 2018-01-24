@@ -8,6 +8,9 @@ const server = express();
 
 server.use('/assets', express.static('assets'));
 
+
+//shows/{:showId}}/{:seasonId}/{:episodeId}
+
 server.get('/', (req, res) => {
   const isMobile = false;
   const initialState = { isMobile };

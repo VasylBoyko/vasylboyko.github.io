@@ -1,3 +1,25 @@
 .player {
-	background-color:#red;
-}
+	background: #fdfdfd;
+	display: flex;
+	.videoDescription {
+		min-height: 50px;
+		background: #ddd;
+	}
+	.videoFrame {
+		flex: 0 0 640px;
+	}
+    .playList {
+    	flex: 1 0 auto;
+		width: 640px;
+		height: 385px;
+		
+		.playListItem {
+			line-height: 50px;
+			padding: 0 20px;
+
+			&:hover, &:active {
+				background: #ddd;
+			}
+		}
+    }
+} 
