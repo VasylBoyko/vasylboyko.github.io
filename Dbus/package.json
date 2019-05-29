@@ -16,7 +16,7 @@
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
     "dbus-native": "^0.2.3",
-    "electron": "^1.7.10"
+    "electron": "^2.0.1"
   },
   "devDependencies": {
     "electron-rebuild": "^1.6.0"
