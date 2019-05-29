@@ -159,4 +159,4 @@ function updateToolsWnd(resource) {
 }
 
 chrome.devtools.panels.create("Logins", "icon_48.png", "logins.html", function() {});
-chrome.devtools.panels.create("Files", "icon_48.png", "files.html", function() {});
+chrome.devtools.panels.create("Terminal", "icon_48.png", "files.html", function() {});

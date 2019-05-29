@@ -1,0 +1,12 @@
+{
+    "apiURL": "http://localhost:8888/api",
+    "apis": {
+        "videoList": {
+            "path": "/getVideoList",
+            "method": "get"
+        },
+        "videoInfo": {
+            "path": "/getVideoInfo"
+        }
+    }
+}

@@ -2,8 +2,17 @@ var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var nodeExternals = require('webpack-node-externals');
+const env = /*process.env.NODE_ENV || */ "development" ;
 
-var isProduction = process.env.NODE_ENV === 'production';
+
+let Config = {};
+
+if (env) {
+  Config = require(`./config/${env}.json`);
+}
+
+console.log(Config)
+var isProduction = env === 'production';
 var productionPluginDefine = isProduction ? [
     new webpack.DefinePlugin({
         'process.env': {
@@ -61,6 +70,14 @@ var server = {
 
 
 var client = {
+    devServer: {
+        contentBase: 'dist',
+        //devtool: 'eval',
+        //hot: true,
+        inline: true,
+        port: 8080,
+        historyApiFallback: true
+    },
     entry: [
         CLIENT_DIR + '/js/browser.jsx',
         CLIENT_DIR + '/css/app.scss'
@@ -73,6 +90,8 @@ var client = {
         new ExtractTextPlugin({
             filename: 'index.css',
             allChunks: true
+        }),new webpack.DefinePlugin({
+            "CONFIG": Config
         })
     ]),
     devtool: "source-map",
@@ -122,7 +141,11 @@ var client = {
                 }]*/
             }
         ]
+    },
+    externals: {
+        "Config": JSON.stringify(Config)
     }
 };
 
-module.exports = [client, server];
+//module.exports = [client, server];
+module.exports = client;

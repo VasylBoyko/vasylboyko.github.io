@@ -16,6 +16,6 @@
   "sandbox": {
     "pages": ["sandboxed/firebase222.html"]
   },
-  "content_security_policy": "object-src 'self'; script-src 'self' https://www.gstatic.com https://*.firebase.com https://*.firebaseio.com",
+  "content_security_policy": "object-src 'self'; script-src 'self' https://www.gstatic.com https://*.firebase.com https://*.firebaseio.com https://console.aws.amazon.com",
   "permissions": [ "tabs", "tts", "ttsEngine" , "<all_urls>", "identity", "identity.email", "notifications", "https://www.gstatic.com/*"]
 }

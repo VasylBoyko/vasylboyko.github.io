@@ -1,0 +1,45 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "plugins": [
+        "html",
+        "react"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "globals": {
+        "Config": true
+    },
+    "rules": {
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "no-extra-semi":"error",
+        "react/no-unknown-property": [2, {"ignore": ["class", "for"]}],
+        "react/prop-types": [0],
+        "valid-typeof": "warn",
+        "indent": ["warn", 4],
+        "linebreak-style": ["error", "unix"],
+        "semi": ["error", "always"],
+        "no-console": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config": "./webapp.amc.com/webpack.dev.config.js"
+            }
+        }
+    }
+}
